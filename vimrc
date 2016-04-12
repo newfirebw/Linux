@@ -82,9 +82,9 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 " 不要用空格代替制表符
-set noexpandtab
+"set noexpandtab
 " 在行和段开始处使用制表符
-set smarttab
+"set smarttab
 " 显示行号
 set number
 " 历史记录数
@@ -113,27 +113,27 @@ set laststatus=2
 " 命令行（在状态行下）的高度，默认为1，这里是2
 set cmdheight=2
 " 侦测文件类型
-filetype on
+"filetype on
 " 载入文件类型插件
-filetype plugin on
+"filetype plugin on
 " 为特定文件类型载入相关缩进文件
-filetype indent on
+"filetype indent on
 " 保存全局变量
-set viminfo+=!
+"set viminfo+=!
 " 带有如下符号的单词不要被换行分割
 "set iskeyword+=_,$,@,%,#,-
 " 字符间插入的像素行数目
-set linespace=0
+"set linespace=0
 " 增强模式中的命令行自动完成操作
-set wildmenu
+"set wildmenu
 " 使回格键（backspace）正常处理indent, eol, start等
-set backspace=2
+"set backspace=2
 " 允许backspace和光标键跨越行边界
-set whichwrap+=<,>,h,l
+"set whichwrap+=<,>,h,l
 " 可以在buffer的任何地方使用鼠标（类似office中在工作区双击鼠标定位）
-set mouse=a
-set selection=exclusive
-set selectmode=mouse,key
+"set mouse=a
+"set selection=exclusive
+"set selectmode=mouse,key
 " 通过使用: commands命令，告诉我们文件的哪一行被改变过
 set report=0
 " 在被分割的窗口间显示空白，便于阅读
@@ -143,7 +143,7 @@ set showmatch
 " 匹配括号高亮的时间（单位是十分之一秒）
 set matchtime=1
 " 光标移动到buffer的顶部和底部时保持3行距离
-set scrolloff=3
+"set scrolloff=3
 " 为C程序提供自动缩进
 set smartindent
 " 高亮显示普通txt文件（需要txt.vim脚本）
